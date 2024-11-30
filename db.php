@@ -1,10 +1,10 @@
 <?php
 
 class DB {
-  private $dbHost = "xnmxviali589.db.solnet.ch";
-  private $dbUser = "pdotester";
-  private $dbPassword = "password1";
-  private $dbName = "pdosql";
+  private $dbHost = "host";
+  private $dbUser = "user";
+  private $dbPassword = "password";
+  private $dbName = "db";
   private $conn;
 
   public function __construct() {
